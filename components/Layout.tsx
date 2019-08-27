@@ -1,7 +1,7 @@
-import { ReactNode } from 'react'
+import React from 'react'
 
 interface Props {
-  children: ReactNode
+  children: React.ReactNode
 }
 
 const Layout: React.FC<Props> = ({ children, ...rest }) => {

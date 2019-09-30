@@ -6,7 +6,7 @@
     "test": "jest",
     "develop": "next",
     "build": "next build",
-    "format": "prettier --write '**/*.{ts,tsx}'"
+    "format": "prettier --write 'src/**/*.{ts,tsx}'"
   },
   "husky": {
     "hooks": {

@@ -3,10 +3,10 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
-    "test": "jest",
-    "develop": "next",
     "build": "next build",
-    "format": "prettier --write 'src/**/*.{ts,tsx,js,jsx}'"
+    "develop": "next",
+    "format": "prettier --write 'src/**/*.{ts,tsx,js,jsx}'",
+    "test": "jest"
   },
   "husky": {
     "hooks": {

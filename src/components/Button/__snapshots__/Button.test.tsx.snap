@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders an button 1`] = `
+<button
+  class="Button-puttg3-0 OAUsJ"
+/>
+`;

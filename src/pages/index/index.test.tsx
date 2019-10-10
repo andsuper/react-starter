@@ -8,3 +8,10 @@ test('shows the hello world message', () => {
 
   expect(getByText('Hello world!')).not.toBeNull()
 })
+
+test('renders the cta button', () => {
+  const { getByText } = render(<Index />)
+
+  expect(getByText('Click')).not.toBeNull()
+  expect(getByText('Click').tagName).toBe('BUTTON')
+})
